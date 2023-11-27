@@ -1,0 +1,62 @@
+#container-countdown{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+#countdown{
+    font-size: 35px;
+    padding: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color:  rgba(119, 214, 254, 0.7) ;
+    text-transform: uppercase;
+    color:#735F32;
+    text-shadow: 0.3mm 0.9mm rgb(253, 253, 248);
+}
+
+#myVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10;
+}
+#myButton{
+    display:none;
+
+}
+
+#cloud{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(156, 153, 236, 0.5);
+    padding:40px;
+    margin-top: 150px;
+    border-radius: 70px;
+    margin-left: 500px;
+    margin-right: 500px;
+   
+}
+
+@media all and (max-width:500px){
+    #myButton{
+        
+        padding:10px;
+       margin-left: 15px;
+        border-radius: 15px;
+        border: #ecebdb ;
+        font-family: 'Lobster', cursive;
+        color:#735F32;
+        background:#FEBE8C;
+        text-shadow: 0.3mm 0.4mm rgb(248, 247, 239);
+    }
+
+        #cloud{
+            justify-content: center;
+            margin-right: 10px;
+            margin-left: 50px;
+        }
+ 
+    
+}

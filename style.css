@@ -1,0 +1,61 @@
+#header{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    color:azure ;
+    text-shadow: 0.3mm 0.9mm black;
+    background-color:rgba(181, 203, 219, 0.5) ;
+    border-radius: 25px;
+  
+}
+#back{
+    display: flex;
+    background-color: rgba(219, 181, 207, 0.5);
+    padding: 90px;
+    margin-top: 150px;
+    border-radius: 70px;
+   
+   
+}
+#btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#btn{
+    padding: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color:  rgba(239, 153, 242, 0.7) ;
+    text-transform: uppercase;
+}
+#btn:hover{
+    background: linear-gradient(to right, #f569b8,white,#71d0e8);
+    color: rgb(32, 32, 69);
+}
+a{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(86, 72, 139);
+    font-weight: bolder;
+    text-shadow: 0.1mm 0.1mm white;
+}
+
+
+#myVideo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+@media all and (max-width:500px){
+ 
+    #btn-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
